@@ -12,6 +12,7 @@ import "./styles/About.css";
 import "./styles/Contact.css";
 import "./styles/Admission.css";
 import "./styles/Courses.css";
+import ChatbotComponent from "./Components/Chatbot/ChatbotComponents";
 
 
 function App () {
@@ -28,6 +29,7 @@ function App () {
                          <Route path="/admission" element={< AdmissionsPage/>}/>              
                     </Routes>
                 </div>
+                <ChatbotComponent/>
                 <Footer/>
             </div>
         </Router>

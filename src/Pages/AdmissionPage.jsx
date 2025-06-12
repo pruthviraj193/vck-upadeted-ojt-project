@@ -1,4 +1,4 @@
-// src/pages/AdmissionsPage.jsx
+
 import { Link } from "react-router-dom";
 const AdmissionsPage = () => {
   return (
@@ -43,7 +43,7 @@ const AdmissionsPage = () => {
             <td>Any Stream</td>
             <td>40%</td>
           </tr>
-          {/* Add more rows for other programs as needed */}
+          
         </tbody>
       </table>
       <h2>Application Process</h2>
@@ -75,18 +75,7 @@ const AdmissionsPage = () => {
         <Link to="/courses">Courses page</Link> or{" "}
         <Link to="/contact">Contact us</Link> directly.
       </p>
-      {/* <div className="call-to-action">
-        <p>Ready to apply?</p>
-        <a
-          href="https://yourcollegeadmissionportal.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Start Your Online Application
-        </a> */}
-      {/* Replace "https://yourcollegeadmissionportal.com" with a real application portal link */}
-      {/* </div> */}
+     
     </div>
   );
 };

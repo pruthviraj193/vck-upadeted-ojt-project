@@ -1,4 +1,4 @@
-// src/pages/ContactPage.jsx
+
 const ContactPage = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
@@ -27,14 +27,14 @@ const ContactPage = () => {
         Phone: +91 87654 32109<br />
         Email: studentsupport@vivekanandcollege.edu
       </p>
-      {/* Placeholder for a map or contact form */}
+      
       <h2>Find Us on the Map</h2>
       <p>
-        {/* [You can embed a Google Map here later using an iframe or a React map library.] */}
+        
         <br />
         <a href="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
       </p>
-      {/* You can add a simple contact form here later */}
+      
       <h2>Send Us a Message</h2>
       <p>
         [A contact form with fields for Name, Email, Subject, Message can be added here.]
